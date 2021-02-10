@@ -1,0 +1,23 @@
+{
+  "name": "leaderboardlambda",
+  "version": "1.0.0",
+  "description": "Lambda function for leaderboard access",
+  "main": "leaderboard-service/api/leaderboard.js",
+  "scripts": {
+    "test": "submit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickcjordan/LeaderboardLambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickcjordan/LeaderboardLambda/issues"
+  },
+  "homepage": "https://github.com/nickcjordan/LeaderboardLambda#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "uuid": "^8.3.2"
+  }
+}
