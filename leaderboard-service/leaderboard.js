@@ -6,7 +6,7 @@ AWS.config.setPromisesDependency(require('bluebird'));
 
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
-module.exports.retrieve = (event, context, callback) => {
+module.exports.list = (event, context, callback) => {
   var params = {
     TableName: process.env.SCORE_TABLE,
     ProjectionExpression: "id, username, score"
